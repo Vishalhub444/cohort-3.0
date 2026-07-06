@@ -1,0 +1,105 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+    color:rgba(12, 4, 4, 0.797);
+    font-family: 'arial', sans-serif;
+   
+}
+html,body {
+    height:100%;
+    width:100%;
+    padding: 7px;
+    overflow:hidden;
+}
+#container{
+    height:100%;
+    width:100%;
+    margin:5px;
+    background-color:rgb(0, 0, 0);
+    border-radius: 20px;
+    position:relative;
+    overflow: hidden;
+}
+
+
+
+.box1{
+    height:100%;
+    width:60%;
+    background-color:yellow;
+    position:relative;
+    overflow: hidden;
+   padding: 36px;
+  
+}
+.logo{width:500px;
+    position:absolute;
+    top:5px;
+    left:35px;
+}
+.content{
+    position:relative;
+    margin: 8px 15px 41px 5px;
+}
+
+
+h1{position:relative;
+    top:5px;
+    color:rgb(0, 0, 0);
+    margin-bottom:20px;
+    font-size:110px;
+      
+}
+h5{
+    letter-spacing:8px;
+    font-size:22px;
+    color:#333;
+    margin:120px 25px 50px 20px;
+    
+}
+p{
+   font-size:26px;
+   line-height: 27px;
+   color:#333;
+}
+.number{position:absolute;
+    left:60px;
+    padding: 15px;
+    font-size:30px;
+    color:#333;
+    
+}
+
+.box2{
+    height:100%;
+    width:40%;
+    background-color:rgb(246, 223, 208); 
+    position:absolute;
+    right:0;
+    top: 0;
+
+}
+.menu{position:absolute;
+    top:30px;
+    right:40px;
+    font-size: 45px;
+    cursor: pointer;
+    
+}
+.pikachu{
+    height: 100%;
+    width: 100%;
+   position: absolute;
+   top:30px;
+    right:130px;
+    bottom:0px;
+}
+.dots p{
+    position:absolute;
+    right:30px;
+    top: 50%;
+    font-size: 20px;
+    line-height: 20px;
+    color:#333;
+}
